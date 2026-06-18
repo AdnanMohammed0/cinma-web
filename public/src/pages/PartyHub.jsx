@@ -17,7 +17,7 @@ export default function PartyHub() {
       const res = await fetch('/api/rooms', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ hostName: userName || 'Host', mediaId: '', mediaType: 'movie', title: 'Watch Party' }),
+        body: JSON.stringify({ hostName: userName || 'Host', mediaId: '', mediaType: 'movie', title: 'ميوو' }),
       });
       if (!res.ok) throw new Error('Failed to create room');
       const data = await res.json();
@@ -41,7 +41,7 @@ export default function PartyHub() {
           <div className="w-16 h-16 mx-auto rounded-full bg-red-500/20 flex items-center justify-center mb-4">
             <BsPeople className="text-3xl text-red-500" />
           </div>
-          <h1 className="text-2xl font-bold">Watch Party</h1>
+          <h1 className="text-2xl font-bold">ميوو</h1>
           <p className="text-white/50 text-sm mt-1">Watch together, in sync</p>
         </div>
 
