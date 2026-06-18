@@ -114,7 +114,7 @@ export default function Room() {
               </div>
             ) : (
               <div>
-                <h1 className="text-sm font-semibold">Watch Party</h1>
+                <h1 className="text-sm font-semibold">ميوو</h1>
                 <p className="text-[10px] text-white/30">Joined as {userName}</p>
               </div>
             )}
