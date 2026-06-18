@@ -119,7 +119,7 @@ export default function Home() {
         </section>
       )}
 
-      {/* Watch Party CTA */}
+      {/* ميوو CTA */}
       <section className="max-w-7xl mx-auto mt-4 px-4">
         <Link to="/party"
           className="flex items-center gap-3 bg-red-500/10 border border-red-500/30 rounded-xl p-4 hover:bg-red-500/20 transition-colors">
@@ -127,7 +127,7 @@ export default function Home() {
             <BsPeopleFill className="text-red-500 text-lg" />
           </div>
           <div className="flex-1 min-w-0">
-            <p className="text-sm font-semibold text-white">Watch Party</p>
+            <p className="text-sm font-semibold text-white">ميوو</p>
             <p className="text-xs text-white/50">Create or join a party to watch together</p>
           </div>
           <svg className="w-4 h-4 text-white/50 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
